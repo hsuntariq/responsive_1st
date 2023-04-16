@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 70%;
+            display: flex;
+            margin: auto;
+            align-items: center;
+            font-family: sans-serif;
+            gap: 2rem;
+        }
+        .heading{
+            text-transform: capitalize;
+            font-size: 2rem;
+        }
+        .info{
+            color: gray;
+            text-align: justify;
+        }
+        .title-section{
+            width: 50%;
+        }
+
+        @media only screen and (max-width:600px){
+        
+            .parent{
+                flex-direction: column;
+                width: 100%;
+            }
+            .title-section{
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="title-section">
+            <div class="heading">
+                <h1>This is a heading</h1>
+            </div>
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed cumque quia perferendis, enim ipsum rem animi aspernatur praesentium temporibus, molestias, neque suscipit. Beatae natus doloribus hic? Sint numquam voluptatem vel, nisi dolorem, eaque minus unde, tempora ad ullam libero corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos amet, tenetur cum molestias voluptate quia deserunt nobis libero dolorem maiores soluta, minus reiciendis exercitationem nihil veniam delectus! Debitis, magni a!7</p>
+            </div>
+            <div class="buttons">
+                <button>this is a button</button>
+                <button>this is a button</button>
+            </div>
+        </div>
+        <div class="image-section">
+            <img width="100%" src="https://e1.pxfuel.com/desktop-wallpaper/879/785/desktop-wallpaper-closeup-golden-eagle-bird-1920p-eagle-eye.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
